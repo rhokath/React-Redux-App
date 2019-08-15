@@ -13,7 +13,7 @@ export const getData = () => {
       .then(res => {
         // res.data.data
         console.log("this is the response", res);
-        // dispatch({ type: FETCH_CAT_DATA_SUCCESS, payload: res.data.message});
+        dispatch({ type: FETCH_CAT_DATA_SUCCESS, payload: res.data.message});
       })
       .catch(err => {
           console.log("this is an error", err)

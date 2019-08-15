@@ -7,12 +7,13 @@ import Dog from "./catFact";
 const CatFactList = (props)=> {
     return(
         <div>
-            <h1>Do you need miss your dalmatian?</h1>
-            {/* <button onClick={props.getData}> {props.isLoading ? (
+            <h1>Do you miss your dalmatian?</h1>
+            <button onClick={props.getData}> {props.isLoading ? (
           <Loader type="tailspin" color="#00BFFF" height="15" width="100" />
         ) : (
-          'Get Your Cat Facts' */}
-        )}<button onClick={props.getData}>see spots</button>
+          'see spots'
+        )}</button>
+        {/* <button onClick={props.getData}>see spots</button> */}
         {props.dogs &&
             props.dogs.map((dog, index) => <Dog key={index} dog={dog}/>)
         }
