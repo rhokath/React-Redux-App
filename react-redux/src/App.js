@@ -6,7 +6,7 @@ import CatFactList from './components/catFactList';
 function App() {
   return (
     <div className="App">
-      <header>hello</header>
+      <header>Welcome</header>
       <CatFactList />
     </div>
   );

@@ -1,16 +1,35 @@
 .App {
   text-align: center;
+  header {
+    color:#EE4C7C;
+    font-size: 2rem;
+    background: linear-gradient(to left, #E3AFBC, #E3E2DF);
+  }
 }
 Body {
-  background: blue;
+  background-image: linear-gradient(to right, #5D001E, #E3AFBC)
+}
+h1{
+  color: #E3E2DF;
 }
 
 .dog-container {
-  border: 1px solid red;
+  border: 1px solid #EE4C7C;
+  background:#9A1750;
   max-width: 50%;
   margin: 1rem auto;
   img{
-    width: 50%;
-    padding: 1rem;
+    width: 75%;
+    border: 1px solid #EE4C7C;
+    margin: 1rem;
+    box-shadow: 5px 10px 18px #2C3531;
   }
+}
+
+button {
+  background-color: #E3E2DF;
+  width: 200px;
+  font-size: 2rem;
+  border-radius: .5rem;
+  color: #5D001E;
 }
