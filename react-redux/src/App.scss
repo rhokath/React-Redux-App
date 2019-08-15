@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+Body {
+  background: blue;
+}
+
+.dog-container {
+  border: 1px solid red;
+  max-width: 50%;
+  margin: 1rem auto;
+  img{
+    width: 50%;
+    padding: 1rem;
+  }
+}
